@@ -26,3 +26,19 @@ function hide(e,display){
 };
 
 
+function enable(e){
+	if((e=_e(e))) {
+		e.removeAttribute('disabled');
+		return true;
+	}
+	return false;
+};
+
+function disable(e){
+	if((e=_e(e))) {
+		e.setAttribute('disabled','true');
+		return true;
+	}
+	return false;
+};
+
