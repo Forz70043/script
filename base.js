@@ -42,8 +42,6 @@ function disable(e){
 	return false;
 };
 
-
-
 function resetForm(el) {
     // variable declaration
     var x, y, z, type = null, object = [];
@@ -79,4 +77,8 @@ function resetForm(el) {
     } // end for x
 };
 
+function disableFilters(el){
+	resetForm(el);
+    return true;
+};
 
