@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source /home/Project/script/setAsset.sh
+
+seek_confirmation() {
+    printf "\n${bold}$@${reset}"
+    read -p " (y/n) " -n 1
+    printf "\n"
+}
