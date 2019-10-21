@@ -8,9 +8,9 @@
 #
 # ==> Commenti aggiunti dall'autore del libro ==>
 
-source /home/alternet.italfonso/Project/script/setAsset.sh
+source /home/forz/Projects/script2/setAsset.sh
 
-MATRICE="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+MATRICE="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz,-@$!"
 # ==> La password viene formata con caratteri alfanumerici.
 LUNGHEZZA="8"
 # ==> Se desiderate passaword più lunghe modificate 'LUNGHEZZA'.
