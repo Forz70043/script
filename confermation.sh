@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /home/alternet.italfonso/Project/script/setAsset.sh
+source /home/forz/Projects/script2/setAsset.sh
 
 seek_confirmation() {
     printf "\n${bold}$@${reset}"

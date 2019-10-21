@@ -1,8 +1,8 @@
 #!/bin/bash
 
-source /home/alternet.italfonso/Project/script/exist.sh
-source /home/alternet.italfonso/Project/script/setAsset.sh
-source /home/alternet.italfonso/Project/script/confermation.sh
+source /home/forz/Projects/script2/exist.sh
+source /home/forz/Projects/script2/setAsset.sh
+source /home/forz/Projects/script2/confermation.sh
 
 e_header "Check Packages"
 
