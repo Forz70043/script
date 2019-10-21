@@ -1,12 +1,13 @@
 #!/bin/bash
 
-source /home/Project/script/setAsset.sh
+source /home/alternet.italfonso/Project/script/setAsset.sh
 
 seek_confirmation() {
     printf "\n${bold}$@${reset}"
     read -p " (y/n) " -n 1
     printf "\n"
 }
+
 
 # Test whether the result of an 'ask' is a confirmation
 is_confirmed() {
@@ -15,3 +16,6 @@ is_confirmed() {
     fi
         return 1
 }
+
+
+

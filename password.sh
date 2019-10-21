@@ -8,6 +8,8 @@
 #
 # ==> Commenti aggiunti dall'autore del libro ==>
 
+source /home/alternet.italfonso/Project/script/setAsset.sh
+
 MATRICE="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 # ==> La password viene formata con caratteri alfanumerici.
 LUNGHEZZA="8"
@@ -46,6 +48,7 @@ do
 	# ==> Incrementa 'n' per il passaggio successivo.
 done
 
-echo "$PASS"      # ==> Oppure, se preferite, redirigetela in un file.
+e_success "Password:"
+e_bold "$PASS"      # ==> Oppure, se preferite, redirigetela in un file.
 
 exit 0
