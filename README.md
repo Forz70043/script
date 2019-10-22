@@ -6,7 +6,7 @@
 | :---         |     :---:      |          ---: |
 | setAsset   | Define pretty format text     |  :x:   |
 | password     | Generates passwords with random characters       | setAsset     |
-|color    | Example use of setAsset  | :x: |
+|color    | Example use of setAsset  | setAsset |
 |confermition | Define function for confirmation | setAsset |
 |exist    | Define function for checking installed packages |  :x:
 |check    | check if package is installed and so on.. | exist, setAsset, confermation |
