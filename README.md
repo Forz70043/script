@@ -1,12 +1,12 @@
-## Common Utils
+## Common Utils :zap:
 
+**NB:** change path to source files
 
-
-File | What
------------- | ------------- 
-setAsset | Define pretty format text
-password | Generates passwords with random characters
-color    | Example use of setAsset
-confermition | Define function for confirmation
-exist    | Define function for checking installed packages
-check    | check if package is installed and so on..
+| File | What | Required |
+| :---         |     :---:      |          ---: |
+| setAsset   | Define pretty format text     |  :x:   |
+| password     | Generates passwords with random characters       | setAsset     |
+|color    | Example use of setAsset  | :x: |
+|confermition | Define function for confirmation | setAsset |
+|exist    | Define function for checking installed packages |  :x:
+|check    | check if package is installed and so on.. | exist, setAsset, confermation |
