@@ -9,6 +9,8 @@ e_header "Check Packages"
 if type_exists "$1" ; 
 then
 	e_success "OK, $1 already installed"
+	version=`$1 --version`
+	e_arrow " version:  $version"
 else 
 	e_error "$1, not installed "
 	#e_note "Do you want to install it ?"
