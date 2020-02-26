@@ -82,3 +82,8 @@ function disableFilters(el){
     return true;
 };
 
+function setAttributes(el,params){
+	if(el=_e(el)){
+        	for(var key in params) el.setAttribute(key,params[key]);
+	}
+}
