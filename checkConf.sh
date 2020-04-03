@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source /home/forz/Projects/script2/confermation.sh
-source /home/forz/Projects/script2/setAsset.sh
+source /home/forz/Projects/script/confermation.sh
+source /home/forz/Projects/script/setAsset.sh
 
 
 seek_confirmation "Vuoi stampare un messaggio di successo?"
