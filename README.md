@@ -1,3 +1,6 @@
+# script
+simple scripts for common use
+
 ## Common Utils :zap:
 
 **NB:** change path to source files
