@@ -13,3 +13,7 @@ simple scripts for common use
 |confermition | Define function for confirmation | setAsset |
 |exist    | Define function for checking installed packages |  :x:
 |check    | check if package is installed and so on.. | exist, setAsset, confermation |
+
+
+
+For set some bash script like command, copy script into /usr/local/bin (Unix sys)
